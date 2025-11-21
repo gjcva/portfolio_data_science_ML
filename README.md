@@ -4,6 +4,7 @@
 2)Dados: Utilizou-se o dataset clássico de *Credit Card Fraud Detection* (Kaggle), contendo transações de cartões europeus. As features passaram por PCA (V1-V28) para anonimização.
 
 3)Metodologia
+
   3.1)Pré-processamento: Normalização da feature `Amount` com `StandardScaler`.
   
   3.2)Estratégia: Divisão de treino/teste estratificada (80/20) para manter a proporção de fraudes.
