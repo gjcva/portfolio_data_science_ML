@@ -5,7 +5,9 @@
 
 3)Metodologia
   3.1)Pré-processamento: Normalização da feature `Amount` com `StandardScaler`.
+  
   3.2)Estratégia: Divisão de treino/teste estratificada (80/20) para manter a proporção de fraudes.
+  
   3.3)Modelagem: Comparação entre uma *Baseline* (Regressão Logística) e um modelo *Ensemble* (Random Forest), ambos com ajuste de pesos de classe (`class_weight='balanced'`).
 
 4) Resultados
